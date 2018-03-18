@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ATOM</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="viewport.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/atom.svg"/></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partners.html">For partners</a></li>
+            <li><a href="startup.html">Startup</a></li>
+            <li><a href="programs.html">Our programs</a></li>
+            <li><a href="wydarzenia.html">Wydarzenia</a></li>
+            <li class="active"><a href="contacts.html">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container-fluid" style="padding:0;">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="big-image">
+          <img src="images/kontakt.svg"/>
+        </div>
+    </div>
+
+    <div class="contain">
+      <div class="col-sm-6">
+        <h4><font style="color:#ee4137">Wylegarnia</font></h4>
+        <div class="col-sm-6">
+          <ul>
+            <li><img src="images/mail.svg">    kontakt@incode.pl</li>
+            <li><img src="images/cell.svg">tel: +48 22 555 226 444</li>
+            <li><img src="images/location.svg"> BIURNO W POLSCE</li>
+            <li><img src="images/location.svg">OFFICE IN UK</li>
+          </ul>
+          </ul>
+
+        </div>
+        <div class="col-sm-6">
+          <div class="buro">
+            <h4>Biuro prasowe Wylegarni</h4>
+            <ul>
+              <li><img src="images/mail.svg">kontakt@incode.pl</li>
+              <li><img src="images/cell.svg">tel: +48 22 555 226 444</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+      </div>
+    </div>
+
+     <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control name" placeholder="Adress email" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control name" placeholder="Nomer telefonu" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control name" placeholder="Termin" required="required" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control _message" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+
+
+      <hr>
+
+              <button onclick="topFunction()" class=" btn btnTop">^</button>
+
+      <footer>
+        <p>&copy; 2015-2016 <b>Prospectrum.</b> All rights reserved.</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="bootstrap.min.js"></script>
+    <script src="offcanvas.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  </body>
+</html>
